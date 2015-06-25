@@ -5,7 +5,9 @@ define([
     'angular',
     'lodash',
     //load modules here
-    'components/main/main-app'
-], function(angular, _){
+    'components/main/main-app',
+    'components/admin/admin-app'
+], function (angular, _) {
+    'use strict';
     angular.bootstrap(document.body, ['main']);
 });

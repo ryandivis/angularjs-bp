@@ -10,5 +10,8 @@
     "angular-ui-router": "~0.2.14",
     "angular-bootstrap": "~0.12.1"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "bootstrap": "~3.3.5"
+  }
 }
